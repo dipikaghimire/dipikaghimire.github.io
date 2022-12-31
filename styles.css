@@ -1,0 +1,262 @@
+body {
+  font-family: sans-serif;
+  background: white;
+}
+
+header {
+  background-color: #f3ede9;
+  height: 10%;
+  color: #575656;
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 100%;
+  z-index: 10;
+  justify-content:
+}
+
+
+img{
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+
+}
+.container {
+  align-items: center;
+}
+
+h1 {
+  margin-right: 10px;
+}
+
+.firstul{
+  margin-top: 20px;
+  margin-left: 950px;
+  padding-left: 0px;
+  font-size: 15px;
+  color: #575656;
+  text-align: right;
+  letter-spacing: 0.15em
+}
+
+main{
+  margin-left:    0px;
+}
+
+.one{
+  color: #575656;
+}
+
+.two{
+  color: #575656;
+}
+
+.three{
+  color: #575656;
+}
+
+.bibhab{
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 0.25em;
+}
+
+.firstdiv{
+background-color: rgb(103, 76, 76);
+display: flex;
+flex-direction: row;
+}
+
+.horizontal-block {
+display: flex;
+flex-direction: row;
+}
+
+.column {
+
+}
+
+.empty-column {
+background-color: white;
+position: relative;
+z-index: 1;
+flex: 1;
+height: 580px;
+}
+
+.filled-column {
+background-color: rgb(240, 240, 240);
+position: relative; 
+z-index: 2;
+flex: 1;
+}
+
+.design-column {
+  background-color: #f3ede9;  
+  position: absolute;
+  padding: 100px;
+  left: 580px;
+  top: 300px;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 0.15em;
+  z-index: 3;
+}
+
+#about{
+margin: 100px;
+margin-top: 50px    ;
+line-height:1.5em;
+font-size:13px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#work{
+  margin: 100px;
+  margin-top: 50px;
+  font-size:13px;
+  line-height:1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size:16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0em;
+}
+
+.column2{
+display: flex;
+flex-direction: row;
+}
+
+.empty-column2{
+  background-color: white;
+  height: 500px;
+  flex:1;
+}
+
+.filled-column2{
+  background-color: rgb(230,230,230);
+  height: 500px;
+  flex:1;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion {
+  background-color: rgb(243,237,233);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #e3d5ca;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.workdiv {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 650px;
+  z-index: 2;
+  position: absolute;
+}
+
+.projects{
+  margin-top: 130px;
+}
+
+.research{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.filled-column3{
+  background-color:rgb(240, 240, 240); 
+  flex: 1;
+  z-index: 1;
+  margin: 10px;
+}
+
+.empty-column3{
+  background-color: #f3ede9; 
+  flex: 1;  
+  z-index: 2;
+  margin: 10px;
+}
+
+.content-research{
+  margin: 100px;
+  margin-top: 50px;
+  line-height:1.5em;
+  font-size:13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+
+.contact-design{
+  display: flex;
+  flex-direction: row;
+}
+
+.filled-column4{
+  background-color:  #f3ede9;
+  flex: 1;
+}
+
+.empty-column4{
+  background-color: white;
+  flex: 1;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) 
+{
+  header {
+    width: 100%;
+    background-color: #f3ede9;
+    height: 10%;
+    color: #575656;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+}
+  
